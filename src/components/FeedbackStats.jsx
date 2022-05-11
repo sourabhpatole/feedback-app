@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import FeedbackContext from "../context/FeedbackContext";
 
-const FeedbackStats = ({}) => {
+const FeedbackStats = () => {
   const { feedback } = useContext(FeedbackContext);
   //calculate average rating
 
